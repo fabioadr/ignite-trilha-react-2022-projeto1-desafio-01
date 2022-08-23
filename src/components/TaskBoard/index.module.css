@@ -1,0 +1,40 @@
+.taskBoard {
+  width: 100%;
+  max-width: 46rem;
+}
+
+.taskBoard header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.taskBoard header div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 700;
+}
+
+.taskBoard header p {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.taskBoard header span {
+  padding: 2px 8px;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+.created {
+  color: var(--blue);
+}
+
+.done {
+  color: var(--purple);
+}
